@@ -1,14 +1,25 @@
 {
   "name": "foe",
   "version": "1.0.0",
-  "description": "",
+  "description": "Found Or Error, If a callback recieves no error, and no data, error.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "tape": "^4.2.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KoryNunn/foe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KoryNunn/foe/issues"
+  },
+  "homepage": "https://github.com/KoryNunn/foe"
 }
